@@ -128,7 +128,7 @@
                 </v-row>
                 <v-row>
                   <v-col
-                    md="4"
+                    md="3"
                   >
                     <v-btn
                       class="mx-2"
