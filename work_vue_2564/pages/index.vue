@@ -36,13 +36,8 @@
                 />
               </template>
               <div class="box">
-                <v-row
-                  v-for="n in 3"
-                  :key="n"
-                >
+                <v-row>
                   <v-col
-                    v-for="k in 3"
-                    :key="k"
                     md="3"
                   >
                     <v-btn
@@ -51,7 +46,105 @@
                       dark
                       color="primary"
                     >
-                      <p>1</p>
+                      1
+                    </v-btn>
+                    <v-btn
+                      class="mx-2"
+                      fab
+                      dark
+                      color="primary"
+                    >
+                      2
+                    </v-btn>
+                    <v-btn
+                      class="mx-2"
+                      fab
+                      dark
+                      color="primary"
+                    >
+                      3
+                    </v-btn>
+                  </v-col>
+                </v-row>
+                <v-row>
+                  <v-col
+                    md="3"
+                  >
+                    <v-btn
+                      class="mx-2"
+                      fab
+                      dark
+                      color="primary"
+                    >
+                      4
+                    </v-btn>
+                    <v-btn
+                      class="mx-2"
+                      fab
+                      dark
+                      color="primary"
+                    >
+                      5
+                    </v-btn>
+                    <v-btn
+                      class="mx-2"
+                      fab
+                      dark
+                      color="primary"
+                    >
+                      6
+                    </v-btn>
+                  </v-col>
+                </v-row>
+                <v-row>
+                  <v-col
+                    md="3"
+                  >
+                    <v-btn
+                      class="mx-2"
+                      fab
+                      dark
+                      color="primary"
+                    >
+                      7
+                    </v-btn>
+                    <v-btn
+                      class="mx-2"
+                      fab
+                      dark
+                      color="primary"
+                    >
+                      8
+                    </v-btn>
+                    <v-btn
+                      class="mx-2"
+                      fab
+                      dark
+                      color="primary"
+                    >
+                      9
+                    </v-btn>
+                  </v-col>
+                </v-row>
+                <v-row>
+                  <v-col
+                    md="4"
+                  >
+                    <v-btn
+                      class="mx-2"
+                      fab
+                      dark
+                      color="primary"
+                    >
+                      0
+                    </v-btn>
+                    <v-btn
+                      class="mx-2"
+                      fab
+                      dark
+                      color="primary"
+                    >
+                      0
                     </v-btn>
                   </v-col>
                 </v-row>
